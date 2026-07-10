@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  color: #3b2f2f;
+  background: #fff8f0;
+}
+
+.hero {
+  height: 100vh;
+  background: url("assets/bg.jpg") center/cover no-repeat;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.overlay {
+  background: rgba(255, 248, 240, 0.78);
+  padding: 40px;
+  border-radius: 12px;
+}
+
+h1 {
+  font-size: 64px;
+  margin: 10px 0;
+}
+
+.small {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.date {
+  font-size: 24px;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.event-card {
+  max-width: 420px;
+  margin: auto;
+  padding: 24px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+iframe {
+  width: 90%;
+  max-width: 800px;
+  height: 350px;
+  border: 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #8b3a3a;
+  color: white;
+  text-decoration: none;
+  border-radius: 999px;
+}
